@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 
-new_model = tf.keras.models.load_model("best_model.h5")
+new_model = tf.keras.models.load_model("best_model.h5",compile=False)
 
 
 
