@@ -2,4 +2,4 @@ gunicorn
 numpy
 pandas
 tensorflow
-Pilow
+Pillow
