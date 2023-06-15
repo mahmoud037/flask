@@ -4,3 +4,4 @@ pandas
 tensorflow
 Pillow
 flask
+os
