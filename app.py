@@ -3,7 +3,7 @@ import tensorflow as tf
 import base64
 import numpy as np
 from PIL import Image
-import OS
+import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 new_model = tf.keras.models.load_model("best_model.h5",compile=False)
 
