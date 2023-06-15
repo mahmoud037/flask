@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route('/test')
 def hello():
-    return ('hello from flask')
+    return ('hello from s flask')
 
 @app.route('/api',methods=['POST'])
 def index():
